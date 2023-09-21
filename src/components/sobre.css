@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.h2sobre{
+  font-size: 25px;
+  color: #111111;
+  font-weight: 900;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 5rem;
+  text-align: center;
+  width: 100%;
+  border-bottom: 3px solid #D6D6D6;
+  padding-bottom: 6px;
+}
+
+.sobre{
+  width: 100%;
+  max-width:1440px;
+  margin: 8rem auto;
+  padding: 0 16vw;
+  display: grid;
+  grid-template-columns: 1fr; 
+  justify-items: center;
+  align-items: center;
+  
+}
+
+.conteinersobre{
+
+  margin-bottom: 60px;
+  width: 100%;
+  padding: 0 6px;
+}
+
+.textsobre{
+  margin-top: 35px;
+  font-size: 17px;
+  color: rgb(53, 53, 53);
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  text-align: justify;
+  width: 100%;
+}
+
+.textsobre2{
+  margin-top: 35px;
+  margin-bottom: 0;
+  color: rgb(53, 53, 53);
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  text-align: justify;
+  width: 100%;
+}
+
+.textsobre3{
+  margin-top: 35px;
+  margin-bottom: 0;
+  color: rgb(53, 53, 53);
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  text-align: justify;
+  width: 100%;
+}
+
+.imgsobre{
+  float: left;
+  width: 30rem;
+  height: 16rem;
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.imgsobre2{
+  float: right;
+  width: 30rem;
+  height: 16rem; 
+  margin-left: 15px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.imgsobre3{
+  float: left;
+  width: 15rem;
+  height: 15rem;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+
+ .imgpropria{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .imglogo{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ 
+  figcaption {
+    text-align: center;
+    font-size: 14px; 
+    color: #222222; 
+    margin-top: 2px; 
+  }
+
+@media (max-width:800px){
+  .sobre{
+    padding: 0 10vw;
+  }
+ 
+}
+
+
+@media (max-width:622px){
+  .sobre{
+    padding: 0 5vw;
+  }
+  .imgsobre,
+  .imgsobre2{
+    float: none;
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .imgsobre3{
+    width: 12rem;
+    height: 11rem;
+  }
+}
+
+@media (max-width:450px){
+
+  .sobre{
+    padding: 0 2vw;
+  }
+
+  .imgsobre3{
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .textsobre,
+  .textsobre2{
+    padding-top: 30px;
+  }
+
+}

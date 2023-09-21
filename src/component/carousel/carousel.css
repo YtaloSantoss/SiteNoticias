@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
+
+*{
+  
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title01{
+  margin: 4rem 0rem;
+}
+
+.h1Category{
+  font-size: 1.2rem;
+  border-left: #C4170C solid ;
+  border-width: 6px;
+  color: #000;
+  text-align: left;
+  margin-left: 2rem;
+  padding:6px 0px 6px 4px;
+}
+
+.category {
+  margin-top:50px;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+ 
+}
+
+.category p {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.category .slide-item {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+/* 
+.category .box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background: rgba(0, 0, 0, 0.267); 
+}*/
+.category .box {
+  cursor: pointer;
+  position: relative;
+  margin: 2px;
+}
+.category .overlay {
+  position: absolute;
+  bottom: 20px;
+  padding-left:10px;
+  text-align: left;
+  width: 100%;
+  height: 40%;
+  z-index: 2;
+}
+.category .overlay h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #c40c0c;
+  text-shadow: 1px 2px 4px rgba(255, 255, 255, 0.205);
+}
+.category .overlay p {
+  color: #fff;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.712);
+
+}
+
+@media (max-width: 940px) {
+  .category .overlay {
+    position: absolute;
+    bottom: 20px;
+    padding-left:10px;
+    text-align: left;
+    width: 100%;
+    height: 50%;
+    z-index: 2;
+  }
+}
+@media (max-width: 560px){
+  .category .overlay h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+  }
+  .category p {
+    font-size: 18px;
+  }
+}
