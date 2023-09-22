@@ -47,7 +47,7 @@ function Contato() {
       </div>
       <div className='iconscontato1'>
         <div className='iconscontato'>
-          <a href="instagram://user?username=seu_propriaaconteceofc" target="_blank" rel="noopener"> <img src="./instagram.png" alt="insta" /></a>
+          <a href="instagram://user?username=propriaaconteceofc" target="_blank" rel="noopener"> <img src="./instagram.png" alt="insta" /></a>
           <a href="https://www.facebook.com/groups/882315565186750" target="_blank" rel="noopener"> <img src="./facebook.png" alt="face" /></a>
           <a href="https://wa.me/5579999999" target="_blank" rel="noopener"> <img src="./whatsapp.png" alt="whats" /></a>
         </div>

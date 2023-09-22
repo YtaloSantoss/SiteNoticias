@@ -12,7 +12,7 @@ export const Footer = () => {
           <p className="pfooter">@2023 | Direitos Autorais PROPRIÁ ACONTECE - Todos os Direitos Reservados | Site Desenvolvido por Ytalo Mateus</p>
           <div className='socialfooter'>
             <a href="https://www.facebook.com/groups/882315565186750" target="_blank"> <BsFacebook className='iconfooter' /></a>
-            <a href="instagram://user?username=seu_propriaaconteceofc" target="_blank"> <RiInstagramFill className='iconfooter' /></a>
+            <a href="instagram://user?username=propriaaconteceofc" target="_blank"> <RiInstagramFill className='iconfooter' /></a>
 
 
           </div>
